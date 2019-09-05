@@ -5,7 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  # Your code here
+  call = []
+  planeteer_calls.map do |element|
+    call << element.
 end
 
 def long_planeteer_calls# code an argument here
