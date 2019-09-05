@@ -22,5 +22,5 @@ def find_the_cheese(recipe)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  cheese = cheese_types & recipe
+  cheese.to_s = cheese_types & recipe
 end
