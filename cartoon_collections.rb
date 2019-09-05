@@ -22,6 +22,5 @@ def find_the_cheese(recipe)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  shared recipe
-end
+  cheese = cheese_types & recipe
 end
