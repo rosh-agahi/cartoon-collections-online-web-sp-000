@@ -21,7 +21,13 @@ end
 def find_the_cheese(recipe)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  included = []
+  
   recipe.include? do |ingredient|
-    ingredient 
+    i=0 
+    while i< 2
+    ingredient == yield(cheese_types[i])
+    return ingredient if 
+    i += 1 
+  end
+end
 end
